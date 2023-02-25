@@ -1,1 +1,23 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<Bag-report>
+  <ID>123</ID>
+  <Assignee>Alexander</Assignee>
+  <Reporter>Alexander</Reporter>
+  <Defect_Reporte_Date>15.07.2021</Defect_Reporte_Date>
+  <Release_Build_Version>2.20<Release_Build_Version>
+  <Environment>Windows 10, Chrome 102.0.5005.115, www.test.website.com</Environment>
+  <Sprint>S22</Sprint>
+  <Priority>Medium</Priority>
+  <Severity>S3 Major</Severity>
+  <Status>Open</Status>
+  <Description>Any participant of a group conversation shoud be able to renameit.The bug is produced only for the creator of a goup conversation. All other participants are able to rename the conversation.</Description>
+   <Steps_To_Reproduce>
+	    <1>Open www.test.website.com</1>
+	    <2>Sign in: lodin - test3, password - testtest</2>
+	    <3>pen a chat dialog with 'Test1 Testington'</3>
+	    <4>Click on the button 'Settings' => add user</4>
+	    <5>Add any user to a group conversation => click \"Done\"</5>
+	    <6>Click again on "Settings" to rename the group conversation</6>
+   </Steps_To_Reproduce>
+ <Expected Result>All participants should be able to rename a group conversation</Expected Result>
+ <Actual Result>The button "rename conversation" is disabled for the creator of the group conversation</Actual Result>
