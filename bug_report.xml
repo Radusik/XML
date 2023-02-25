@@ -19,5 +19,5 @@
 	    <5>Add any user to a group conversation => click \"Done\"</5>
 	    <6>Click again on "Settings" to rename the group conversation</6>
    </Steps_To_Reproduce>
- <Expected Result>All participants should be able to rename a group conversation</Expected Result>
- <Actual Result>The button "rename conversation" is disabled for the creator of the group conversation</Actual Result>
+ <Expected_Result>All participants should be able to rename a group conversation</Expected_Result>
+ <Actual_Result>The button "rename conversation" is disabled for the creator of the group conversation</Actual_Result>
